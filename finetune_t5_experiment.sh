@@ -1,6 +1,7 @@
 #!/bin/bash
 ## Add parent directory to python path to access lightning_base.py
 # export PYTHONPATH="../":"${PYTHONPATH}"
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 TRAIN_BATCH_SIZE=16
 TEST_BATCH_SIZE=4
