@@ -4,8 +4,8 @@ import os
 from pathlib import Path
 from typing import Any, Dict
 
-import pytorch_lightning as pl
-from pytorch_lightning.utilities import rank_zero_info
+import lightning.pytorch as pl
+from lightning.pytorch.utilities import rank_zero_info
 
 from transformers import (
     AdamW,
