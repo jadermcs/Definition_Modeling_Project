@@ -1,6 +1,6 @@
 pytorch-lightning==0.9.0
 git-python==1.0.3
-transformers==3.1.0
+transformers
 sacrebleu
 rouge-score
 matplotlib
