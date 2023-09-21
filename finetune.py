@@ -9,13 +9,13 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 import random
 import numpy as np
-import pytorch_lightning as pl
+import lightning.pytorch as pl
 import torch
 from torch.utils.data import DataLoader
 
 from lightning_base import BaseTransformer, add_generic_args, generic_train
 from transformers import T5Tokenizer, T5ForConditionalGeneration, get_linear_schedule_with_warmup, AdamW
-from pytorch_lightning.callbacks import EarlyStopping
+from lightning.pytorch.callbacks import EarlyStopping
 from torch.nn import CrossEntropyLoss
 from nltk.translate import bleu_score
 
