@@ -3,10 +3,10 @@ import os
 from pathlib import Path
 
 import numpy as np
-import pytorch_lightning as pl
+import lightning.pytorch as pl
 import torch
-from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
-from pytorch_lightning.utilities import rank_zero_only
+from lightning.pytorch.callbacks import EarlyStopping, ModelCheckpoint
+from lightning.pytorch.utilities import rank_zero_only
 
 from utils import save_json
 
